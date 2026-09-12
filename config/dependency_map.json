@@ -1,0 +1,37 @@
+[
+  {
+    "item_id": "PEN-01",
+    "entity": "Meridian Global Holdings Inc.",
+    "depends_on_item_id": "PEN-DE-01",
+    "depends_on_entity": "Meridian Europe GmbH",
+    "reason": "Consolidated pension footnote cannot be finalized until component actuarial valuation is received"
+  },
+  {
+    "item_id": "RPT-01",
+    "entity": "Meridian Global Holdings Inc.",
+    "depends_on_item_id": "RPT-04",
+    "depends_on_entity": "Meridian Manufacturing Co.",
+    "reason": "Consolidated related party listing depends on component-level management fee support"
+  },
+  {
+    "item_id": "RPT-01",
+    "entity": "Meridian Global Holdings Inc.",
+    "depends_on_item_id": "RPT-05",
+    "depends_on_entity": "Meridian Manufacturing Co.",
+    "reason": "Consolidated related party listing depends on component-level loan/interest support"
+  },
+  {
+    "item_id": "PAY-CA-01",
+    "entity": "Meridian Manufacturing Co.",
+    "depends_on_item_id": "RPT-04",
+    "depends_on_entity": "Meridian Manufacturing Co.",
+    "reason": "Bonus calculation is contingent on related party fee approval documentation"
+  },
+  {
+    "item_id": "PPA-01",
+    "entity": "Meridian Global Holdings Inc.",
+    "depends_on_item_id": "VAL-NORDICS-01",
+    "depends_on_entity": "Meridian Nordics AB",
+    "reason": "Purchase price allocation cannot be finalized until the independent valuation of acquired intangible assets is received"
+  }
+]

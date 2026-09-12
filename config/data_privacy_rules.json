@@ -1,0 +1,42 @@
+[
+  {
+    "entity": "Meridian Europe GmbH",
+    "data_type": "Payroll register / statutory contribution data",
+    "contains_personal_data": "Yes",
+    "applicable_regime": "GDPR (EU)",
+    "cross_border_transfer_rule": "Cannot leave the EU (including via US-based email/Drive) without an approved transfer mechanism (Standard Contractual Clauses on file)",
+    "required_handling": "Must be uploaded to the firm's EU-hosted secure portal only. Agent must NEVER attach this data type to a Gmail draft — if detected, block the draft and reroute to the secure-portal instruction template."
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "data_type": "Employee census for actuarial valuation (PEN-DE-01 support)",
+    "contains_personal_data": "Yes",
+    "applicable_regime": "GDPR (EU)",
+    "cross_border_transfer_rule": "Same as above",
+    "required_handling": "Same as above — applies even though the confidentiality tier for this item is only 'Sensitive', not 'Restricted'."
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "data_type": "Employee data",
+    "contains_personal_data": "Yes",
+    "applicable_regime": "Singapore PDPA",
+    "cross_border_transfer_rule": "Transfer to US permitted; standard contractual safeguards already on file with client",
+    "required_handling": "Standard secure transfer via existing engagement channels — no additional block."
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "data_type": "Employee data",
+    "contains_personal_data": "Yes",
+    "applicable_regime": "Canada PIPEDA",
+    "cross_border_transfer_rule": "Transfer to US permitted under existing data processing agreement",
+    "required_handling": "Standard secure transfer."
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "data_type": "All data (data originates in US)",
+    "contains_personal_data": "Varies",
+    "applicable_regime": "N/A",
+    "cross_border_transfer_rule": "N/A",
+    "required_handling": "Standard handling per Confidentiality Rules tab."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "phase": "Planning",
+    "start_date": "2026-10-01",
+    "due_date": "2026-10-31"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "phase": "Interim",
+    "start_date": "2026-11-01",
+    "due_date": "2026-12-15"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "phase": "Year-End / Final",
+    "start_date": "2027-01-05",
+    "due_date": "2027-02-20"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "phase": "Subsequent Events",
+    "start_date": "2027-02-21",
+    "due_date": "2027-02-28"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "phase": "Wrap-up",
+    "start_date": "2027-03-01",
+    "due_date": "2027-03-10"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "phase": "Interim",
+    "start_date": "2026-11-01",
+    "due_date": "2026-12-01"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "phase": "Year-End / Final",
+    "start_date": "2027-01-05",
+    "due_date": "2027-02-05"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "phase": "Interim",
+    "start_date": "2026-11-01",
+    "due_date": "2026-12-10"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "phase": "Year-End / Final",
+    "start_date": "2027-01-05",
+    "due_date": "2027-02-10"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "phase": "Year-End / Final",
+    "start_date": "2027-01-10",
+    "due_date": "2027-02-10"
+  },
+  {
+    "entity": "Meridian Nordics AB",
+    "phase": "Year-End / Final (opening balance sheet + stub period only)",
+    "start_date": "2027-01-10",
+    "due_date": "2027-02-15"
+  }
+]

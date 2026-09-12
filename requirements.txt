@@ -1,0 +1,6 @@
+openpyxl>=3.1.0
+pdfplumber>=0.10.0
+pytest>=8.0.0
+
+# Not pip-installable — must be present on PATH separately:
+#   pandoc  (used by scripts/extract_pbc_items.py to parse .docx audit programs)

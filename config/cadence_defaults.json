@@ -1,0 +1,32 @@
+[
+  {
+    "parameter": "Chase cadence (Standard/Sensitive items)",
+    "default_value": "Every 3 business days",
+    "override_notes": "Meridian Europe GmbH: every 5 business days (time zone / translation buffer)"
+  },
+  {
+    "parameter": "Escalation threshold",
+    "default_value": "2 unanswered chases",
+    "override_notes": "Restricted items: no automated chase — partner notified at item creation"
+  },
+  {
+    "parameter": "Non-response memo threshold",
+    "default_value": "4 unanswered chases OR 10 business days past due, whichever first",
+    "override_notes": "Vendor/specialist items excluded — governed by their own lead time, not this threshold"
+  },
+  {
+    "parameter": "Vendor/specialist chase cadence",
+    "default_value": "Every 10 business days",
+    "override_notes": "Aligned to typical lead times in Vendor & Specialist Register"
+  },
+  {
+    "parameter": "Materiality-based cadence adjustment",
+    "default_value": "Above Performance Materiality or Specific-Risk items: standard cadence. Below Performance Materiality and not specific-risk: relaxed cadence (every 7 business days)",
+    "override_notes": "Never relaxes a Restricted-tier or GDPR-flagged item's HANDLING rules — materiality affects urgency only, never confidentiality or data-privacy gates"
+  },
+  {
+    "parameter": "Fieldwork-generated (sample-based) items cadence",
+    "default_value": "Every 5 business days once due date passes (fixed testing windows leave less float than program-level items)",
+    "override_notes": "See Interim_Testing_Sample_Requests.xlsx for the item stream this applies to"
+  }
+]

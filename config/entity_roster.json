@@ -1,0 +1,47 @@
+[
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "jurisdiction": "USA (Delaware)",
+    "functional_currency": "USD",
+    "reporting_currency": "USD",
+    "component_type": "Parent / Group Lead",
+    "auditor": "Group Engagement Team",
+    "reporting_deadline_to_group": "2027-03-01 (Group)"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "jurisdiction": "Germany",
+    "functional_currency": "EUR",
+    "reporting_currency": "USD",
+    "component_type": "Significant Component",
+    "auditor": "Component Auditor (Network Firm — Germany)",
+    "reporting_deadline_to_group": "2027-02-15 (earlier than group per instructions)"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "jurisdiction": "Singapore",
+    "functional_currency": "SGD",
+    "reporting_currency": "USD",
+    "component_type": "Significant Component",
+    "auditor": "Group Engagement Team (direct)",
+    "reporting_deadline_to_group": "2027-02-20"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "jurisdiction": "Canada",
+    "functional_currency": "CAD",
+    "reporting_currency": "USD",
+    "component_type": "Insignificant Component — specific risk (related party)",
+    "auditor": "Group Engagement Team (direct)",
+    "reporting_deadline_to_group": "2027-02-20"
+  },
+  {
+    "entity": "Meridian Nordics AB",
+    "jurisdiction": "Sweden",
+    "functional_currency": "SEK",
+    "reporting_currency": "USD",
+    "component_type": "New Component — Business Combination (acquired 2026-07-01; scope limited to opening balance sheet + purchase accounting + stub-period P&L)",
+    "auditor": "Group Engagement Team (direct, specialist-assisted for valuation)",
+    "reporting_deadline_to_group": "2027-02-20"
+  }
+]

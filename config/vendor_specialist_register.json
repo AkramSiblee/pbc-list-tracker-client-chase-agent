@@ -1,0 +1,34 @@
+[
+  {
+    "vendor_specialist": "Hoffmann Versicherungsmathematik GmbH",
+    "type": "Independent Actuary",
+    "related_item_id": "PEN-DE-01",
+    "entity": "Meridian Europe GmbH",
+    "contact": "info@hoffmann-vm.de",
+    "typical_lead_time": "4-6 weeks"
+  },
+  {
+    "vendor_specialist": "CloudHost Asia Pte Ltd",
+    "type": "Cloud ERP Hosting Provider",
+    "related_item_id": "ITGC-APAC-02",
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "contact": "compliance@cloudhostasia.com",
+    "typical_lead_time": "2-3 weeks"
+  },
+  {
+    "vendor_specialist": "NorthStar Payroll Services",
+    "type": "Payroll Processor (SOC 1)",
+    "related_item_id": "PAY-01 (supporting)",
+    "entity": "Meridian Global Holdings Inc.",
+    "contact": "audit-requests@northstarpayroll.com",
+    "typical_lead_time": "3-4 weeks"
+  },
+  {
+    "vendor_specialist": "Kessler Valuation Partners",
+    "type": "Independent Business Combination Valuation Specialist",
+    "related_item_id": "VAL-NORDICS-01",
+    "entity": "Meridian Nordics AB",
+    "contact": "engagements@kesslervaluation.com",
+    "typical_lead_time": "6-8 weeks"
+  }
+]

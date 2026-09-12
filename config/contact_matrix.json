@@ -1,0 +1,107 @@
+[
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "Finance/GL",
+    "contact_name": "Robert Chen",
+    "title": "Controller",
+    "email": "r.chen@meridianglobal.com"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "Treasury",
+    "contact_name": "Alicia Ford",
+    "title": "Treasury Director",
+    "email": "a.ford@meridianglobal.com"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "Payroll/HR",
+    "contact_name": "David Osei",
+    "title": "Payroll Manager",
+    "email": "d.osei@meridianglobal.com"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "IT",
+    "contact_name": "Priya Nair",
+    "title": "IT Manager",
+    "email": "p.nair@meridianglobal.com"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "Legal",
+    "contact_name": "Marcus Webb",
+    "title": "General Counsel",
+    "email": "m.webb@meridianglobal.com"
+  },
+  {
+    "entity": "Meridian Global Holdings Inc.",
+    "functional_area": "Corporate Governance",
+    "contact_name": "Jennifer Voss (FY25 file — unconfirmed)",
+    "title": "VP Corporate Secretary",
+    "email": "j.voss@meridianglobal.com (unverified)"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "functional_area": "Finance/GL",
+    "contact_name": "Stefan Bauer",
+    "title": "Local Controller",
+    "email": "s.bauer@meridian-europe.de"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "functional_area": "Payroll/HR",
+    "contact_name": "Greta Lindqvist",
+    "title": "HR Manager",
+    "email": "g.lindqvist@meridian-europe.de"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "functional_area": "Finance/GL",
+    "contact_name": "Wei Ling Tan",
+    "title": "Finance Manager",
+    "email": "wl.tan@meridian-apac.sg"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "functional_area": "IT",
+    "contact_name": "Arjun Kumar",
+    "title": "IT Manager",
+    "email": "a.kumar@meridian-apac.sg"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "functional_area": "Warehouse/Ops",
+    "contact_name": "Melissa Goh",
+    "title": "Warehouse Controller",
+    "email": "m.goh@meridian-apac.sg"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "functional_area": "Finance/GL",
+    "contact_name": "Jean-Pierre Roy",
+    "title": "Local Controller",
+    "email": "jp.roy@meridian-mfg.ca"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "functional_area": "Payroll/HR",
+    "contact_name": null,
+    "title": null,
+    "email": "NOT ON FILE — escalate to Group Controller before requesting PAY-CA-01"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "functional_area": "Legal",
+    "contact_name": "Outside Counsel — TBD",
+    "title": "External",
+    "email": "confirm with Local Controller"
+  },
+  {
+    "entity": "Meridian Nordics AB",
+    "functional_area": "Finance/GL",
+    "contact_name": "Contact TBD — integration in progress",
+    "title": null,
+    "email": "Local ERP not yet migrated to group systems; route all requests through Group Controller Robert Chen until integration completes."
+  }
+]

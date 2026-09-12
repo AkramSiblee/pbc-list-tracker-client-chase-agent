@@ -1,0 +1,37 @@
+[
+  {
+    "entity": "Meridian Global Holdings Inc. (Group)",
+    "group_component_materiality": "$2,400,000",
+    "performance_materiality": "$1,800,000",
+    "clearly_trivial_threshold": "$120,000",
+    "basis___notes": "1% of consolidated revenue"
+  },
+  {
+    "entity": "Meridian Europe GmbH",
+    "group_component_materiality": "$950,000 (component)",
+    "performance_materiality": "$700,000",
+    "clearly_trivial_threshold": "$47,500",
+    "basis___notes": "Allocated per group component materiality methodology"
+  },
+  {
+    "entity": "Meridian Asia Pacific Pte Ltd",
+    "group_component_materiality": "$600,000 (component)",
+    "performance_materiality": "$450,000",
+    "clearly_trivial_threshold": "$30,000",
+    "basis___notes": "Allocated per group component materiality methodology"
+  },
+  {
+    "entity": "Meridian Manufacturing Co.",
+    "group_component_materiality": "$150,000 (component)",
+    "performance_materiality": "$110,000",
+    "clearly_trivial_threshold": "$7,500",
+    "basis___notes": "Scoped in for the related-party specific risk regardless of materiality — see Confidentiality Rules and Dependency Map"
+  },
+  {
+    "entity": "Meridian Nordics AB",
+    "group_component_materiality": "$180,000 (component)",
+    "performance_materiality": "$135,000",
+    "clearly_trivial_threshold": "$9,000",
+    "basis___notes": "New component — materiality set provisionally pending post-acquisition reassessment"
+  }
+]

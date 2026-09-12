@@ -1,0 +1,44 @@
+[
+  {
+    "side": "Engagement Team",
+    "role": "Staff",
+    "name": "Nina Alvarez",
+    "escalation_tier___threshold": "Tier 1 — day-to-day tracking"
+  },
+  {
+    "side": "Engagement Team",
+    "role": "Senior",
+    "name": "Tom Rivera",
+    "escalation_tier___threshold": "Tier 2 — after 1st missed cadence"
+  },
+  {
+    "side": "Engagement Team",
+    "role": "Manager",
+    "name": "Sarah Kim",
+    "escalation_tier___threshold": "Tier 3 — after 2 unanswered chases"
+  },
+  {
+    "side": "Engagement Team",
+    "role": "Partner",
+    "name": "James Whitfield",
+    "escalation_tier___threshold": "Tier 4 — Restricted items, non-response memos"
+  },
+  {
+    "side": "Client",
+    "role": "Preparer",
+    "name": "Varies by area (see Contact Matrix)",
+    "escalation_tier___threshold": "First point of contact"
+  },
+  {
+    "side": "Client",
+    "role": "Reviewer/Controller",
+    "name": "Per-entity Controller (see Contact Matrix)",
+    "escalation_tier___threshold": "Escalation after 2 chases"
+  },
+  {
+    "side": "Client",
+    "role": "CFO/Audit Committee",
+    "name": "To be confirmed by engagement team",
+    "escalation_tier___threshold": "Escalation for non-response memo items only"
+  }
+]

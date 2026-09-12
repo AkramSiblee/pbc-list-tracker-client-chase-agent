@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Legal confirmations / outside counsel correspondence",
+    "tier": "Restricted",
+    "rule___examples": "Litigation letters, environmental claims, legal privilege matters",
+    "automated_chase_allowed": "No — partner-handled only"
+  },
+  {
+    "category": "Executive compensation",
+    "tier": "Restricted",
+    "rule___examples": "NEO pay, bonus plans tied to related party approval",
+    "automated_chase_allowed": "No — partner-handled only"
+  },
+  {
+    "category": "Related party transactions",
+    "tier": "Restricted",
+    "rule___examples": "Intercompany loans, management fees, cost allocations",
+    "automated_chase_allowed": "No — partner-handled only"
+  },
+  {
+    "category": "Payroll (non-executive)",
+    "tier": "Sensitive",
+    "rule___examples": "Payroll registers, statutory contribution schedules",
+    "automated_chase_allowed": "Yes — limited-access chase template"
+  },
+  {
+    "category": "Pension / actuarial",
+    "tier": "Sensitive",
+    "rule___examples": "Actuarial valuations, benefit plan support",
+    "automated_chase_allowed": "Yes — limited-access chase template"
+  },
+  {
+    "category": "Standard operational schedules",
+    "tier": "Standard",
+    "rule___examples": "Revenue detail, PPE schedules, bank confirmations, inventory counts, ITGC access listings",
+    "automated_chase_allowed": "Yes — standard chase template"
+  },
+  {
+    "category": "Business combination / deal economics",
+    "tier": "Restricted",
+    "rule___examples": "Purchase price allocation, deal valuation models, acquisition agreements",
+    "automated_chase_allowed": "No — partner-handled only"
+  }
+]

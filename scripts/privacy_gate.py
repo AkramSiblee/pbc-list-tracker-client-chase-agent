@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RULES_PATH = ROOT / "config" / "data_privacy_rules.json"
+RULES_PATH = ROOT / "output" / "config" / "data_privacy_rules.json"
 
 
 @dataclass

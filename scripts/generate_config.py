@@ -2,7 +2,7 @@
 generate_config.py
 
 Reads sample_data/engagement_setup/Engagement_Setup_Package.xlsx and writes one
-JSON file per tab into config/. Run this whenever the engagement setup workbook
+JSON file per tab into output/config/. Run this whenever the engagement setup workbook
 changes (new entity onboarded, materiality reset, contact updated, etc.) so the
 scripts and Claude Code skill always read current config rather than a stale copy.
 
@@ -17,7 +17,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK = ROOT / "sample_data" / "engagement_setup" / "Engagement_Setup_Package.xlsx"
-CONFIG_DIR = ROOT / "config"
+CONFIG_DIR = ROOT / "output" / "config"
 
 # Maps each sheet name -> (output filename, header row number)
 # Every sheet in this workbook has a merged title row (1), a blank row (2), and
@@ -92,7 +92,7 @@ def main():
         sys.exit(1)
 
     wb = openpyxl.load_workbook(WORKBOOK, data_only=True)
-    CONFIG_DIR.mkdir(exist_ok=True)
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 
     written = []
     for sheet_name, out_name in SHEETS.items():

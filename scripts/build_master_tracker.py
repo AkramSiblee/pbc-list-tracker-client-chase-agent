@@ -6,7 +6,7 @@ Assembles the Master Tracker described in docs/io-spec.md B1 from:
      extract_pbc_items.py first)
   2. sample_data/fieldwork/Interim_Testing_Sample_Requests.xlsx (the dynamic,
      fieldwork-generated stream)
-  3. config/*.json (materiality thresholds, dependency map)
+  3. output/config/*.json (materiality thresholds, dependency map)
 
 This produces a local Excel mirror for testing and review — the live version
 of this tracker is a Google Sheet maintained via the Drive/Sheets connector
@@ -33,8 +33,8 @@ from utils import canonical_entity  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 EXTRACTED_PATH = ROOT / "output" / "extracted_items.json"
 SAMPLE_REQUESTS_PATH = ROOT / "sample_data" / "fieldwork" / "Interim_Testing_Sample_Requests.xlsx"
-MATERIALITY_PATH = ROOT / "config" / "materiality_thresholds.json"
-DEPENDENCY_PATH = ROOT / "config" / "dependency_map.json"
+MATERIALITY_PATH = ROOT / "output" / "config" / "materiality_thresholds.json"
+DEPENDENCY_PATH = ROOT / "output" / "config" / "dependency_map.json"
 OUT_PATH = ROOT / "output" / "Master_Tracker.xlsx"
 
 FONT = "Arial"

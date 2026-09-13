@@ -22,7 +22,7 @@ from pathlib import Path
 from utils import parse_date, business_days_between
 
 ROOT = Path(__file__).resolve().parents[1]
-CADENCE_PATH = ROOT / "config" / "cadence_defaults.json"
+CADENCE_PATH = ROOT / "output" / "config" / "cadence_defaults.json"
 
 NON_CHASEABLE_STATUSES = {
     "Received",
@@ -41,7 +41,7 @@ class ChaseDecision:
 
 def _default_cadence_days(item: dict) -> int:
     """Business days between chases, before any override. Mirrors
-    config/cadence_defaults.json in spirit; kept as plain constants here so
+    output/config/cadence_defaults.json in spirit; kept as plain constants here so
     the engine has no hard dependency on the config file's exact wording,
     which is meant for humans to read."""
     if item.get("vendor_specialist"):

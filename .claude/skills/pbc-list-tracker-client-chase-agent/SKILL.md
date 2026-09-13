@@ -18,7 +18,7 @@ when a script doesn't check for you.**
 ## Rules you enforce personally, not just via script
 
 - Never draft or send a client-facing email for a **Restricted**-tier item.
-  Check `config/confidentiality_rules.json` and the item's tier before
+  Check `output/config/confidentiality_rules.json` and the item's tier before
   drafting anything, even if a script's output suggests an item is
   chase-eligible — Restricted items should never reach that stage, but if a
   bug in this repo lets one through, you are the last line of defense.
@@ -46,7 +46,7 @@ when a script doesn't check for you.**
 
 ### 1. Build the PBC list (new engagement, or new component mid-engagement)
 
-1. Confirm `config/*.json` is current — if `sample_data/engagement_setup/
+1. Confirm `output/config/*.json` is current — if `sample_data/engagement_setup/
    Engagement_Setup_Package.xlsx` changed, run `python scripts/generate_config.py`.
 2. Run `python scripts/extract_pbc_items.py`. Read `output/extracted_items.json`.
 3. For every item with `needs_review: true`, resolve it yourself: read the

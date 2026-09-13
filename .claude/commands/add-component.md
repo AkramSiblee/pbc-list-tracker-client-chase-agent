@@ -33,7 +33,7 @@ the chase pipeline.
    ```
    python scripts/generate_config.py
    ```
-   and confirm the new entity appears in the relevant `config/*.json` files.
+   and confirm the new entity appears in the relevant `output/config/*.json` files.
 3. Only now run `/build-pbc-list` (or `extract_pbc_items.py` directly) to pull
    in the new entity's audit-program items — extraction before this point
    would create items with no registered contact, materiality, or dependency

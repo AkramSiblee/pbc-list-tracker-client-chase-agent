@@ -6,7 +6,7 @@ engagement.
 ## Steps
 
 1. If `sample_data/engagement_setup/Engagement_Setup_Package.xlsx` has changed
-   since `config/*.json` was last generated, run:
+   since `output/config/*.json` was last generated, run:
    ```
    python scripts/generate_config.py
    ```
@@ -29,11 +29,11 @@ engagement.
    ```
 6. Report the result: total rows written, and the "Dependency-held on init"
    list — explain to the user which items cannot be requested from the client
-   yet and why (per `config/dependency_map.json`).
+   yet and why (per `output/config/dependency_map.json`).
 
 ## Notes
 
 - If this is a new component being added mid-engagement (e.g. a business
   combination), see `/add-component` first — the entity needs to exist in
-  `config/entity_roster.json`, `config/contact_matrix.json`, and
-  `config/materiality_thresholds.json` before its items are extracted here.
+  `output/config/entity_roster.json`, `output/config/contact_matrix.json`, and
+  `output/config/materiality_thresholds.json` before its items are extracted here.

@@ -55,7 +55,7 @@ def load_static_items() -> list[dict]:
     if not EXTRACTED_PATH.exists():
         print("Run scripts/extract_pbc_items.py first.", file=sys.stderr)
         return []
-    raw = json.loads(EXTRACTED_PATH.read_text())
+    raw = json.loads(EXTRACTED_PATH.read_text(encoding="utf-8"))
     items = []
     for r in raw:
         items.append({
@@ -125,7 +125,7 @@ def load_sample_items() -> list[dict]:
 def apply_materiality(items: list[dict]) -> None:
     if not MATERIALITY_PATH.exists():
         return
-    materiality_rows = json.loads(MATERIALITY_PATH.read_text())
+    materiality_rows = json.loads(MATERIALITY_PATH.read_text(encoding="utf-8"))
     entity_notes = {}
     for row in materiality_rows:
         entity_name = row.get("entity", "")
@@ -149,7 +149,7 @@ def apply_materiality(items: list[dict]) -> None:
 def apply_dependencies(items: list[dict]) -> None:
     if not DEPENDENCY_PATH.exists():
         return
-    deps = json.loads(DEPENDENCY_PATH.read_text())
+    deps = json.loads(DEPENDENCY_PATH.read_text(encoding="utf-8"))
     dep_lookup: dict[tuple[str, str], list[dict]] = {}
     for d in deps:
         dep_lookup.setdefault((d["item_id"], d["entity"]), []).append(d)

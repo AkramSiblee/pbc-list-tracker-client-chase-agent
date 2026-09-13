@@ -64,7 +64,7 @@ def load_confidentiality_map() -> dict[tuple[str, str], str]:
     """(item_id, entity) -> confidentiality tier, from the static-program extraction."""
     if not EXTRACTED_PATH.exists():
         return {}
-    items = json.loads(EXTRACTED_PATH.read_text())
+    items = json.loads(EXTRACTED_PATH.read_text(encoding="utf-8"))
     return {(item["item_id"], item["entity"]): item.get("confidentiality") for item in items if item.get("confidentiality")}
 
 
@@ -75,7 +75,7 @@ def load_population_entity_map() -> dict[str, set[str]]:
     real-world collision this function exists to help resolve."""
     if not EXTRACTED_PATH.exists():
         return {}
-    items = json.loads(EXTRACTED_PATH.read_text())
+    items = json.loads(EXTRACTED_PATH.read_text(encoding="utf-8"))
     mapping: dict[str, set[str]] = {}
     for item in items:
         mapping.setdefault(item["item_id"], set()).add(item["entity"])
@@ -280,7 +280,7 @@ def main():
     results = [classify_row(row, population_map, confidentiality_map) for row in rows]
 
     out_path = ROOT / "output" / "submission_classifications.json"
-    out_path.write_text(json.dumps(results, indent=2, default=str, ensure_ascii=False))
+    out_path.write_text(json.dumps(results, indent=2, default=str, ensure_ascii=False), encoding="utf-8")
 
     for r in results:
         flag = " [NEEDS AGENT REVIEW]" if r["needs_agent_review"] else ""

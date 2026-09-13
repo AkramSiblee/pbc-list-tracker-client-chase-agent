@@ -102,7 +102,7 @@ def main():
         ws = wb[sheet_name]
         records = sheet_to_records(ws)
         out_path = CONFIG_DIR / out_name
-        out_path.write_text(json.dumps(records, indent=2, default=str, ensure_ascii=False))
+        out_path.write_text(json.dumps(records, indent=2, default=str, ensure_ascii=False), encoding="utf-8")
         written.append((out_name, len(records)))
 
     print("Config files written:")

@@ -53,7 +53,7 @@ def extract_from_docx(path: Path, entity: str) -> list[dict]:
     """
     result = subprocess.run(
         ["pandoc", "-t", "gfm", str(path)],
-        capture_output=True, text=True, check=True,
+        capture_output=True, text=True, encoding="utf-8", check=True,
     )
     md = result.stdout
     items = {}
@@ -244,7 +244,7 @@ def main():
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(all_items, indent=2, default=str, ensure_ascii=False))
+    out_path.write_text(json.dumps(all_items, indent=2, default=str, ensure_ascii=False), encoding="utf-8")
 
     flagged = [i for i in all_items if i["needs_review"]]
     print(f"\nTotal: {len(all_items)} item(s), {len(flagged)} flagged for Changelog review")

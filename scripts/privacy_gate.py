@@ -33,7 +33,7 @@ class PrivacyCheckResult:
 
 
 def _load_rules() -> list[dict]:
-    return json.loads(RULES_PATH.read_text())
+    return json.loads(RULES_PATH.read_text(encoding="utf-8"))
 
 
 def _matches_data_type(hint: str, rule_data_type: str) -> bool:
